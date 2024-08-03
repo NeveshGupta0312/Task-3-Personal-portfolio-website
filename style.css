@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+}
+
+main {
+  padding: 20px;
+}
+
+#home {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#home img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+#home h2 {
+  margin-top: 20px;
+}
+
+#about, #projects, #contact {
+  padding: 50px 0;
+}
+
+#about h2, #projects h2, #contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#contact {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
+
+#contact form {
+  display: inline-block;
+  text-align: left;
+}
+
+#contact label {
+  display: block;
+  margin-top: 10px;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+#contact button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #282c34;
+  color: white;
+}
